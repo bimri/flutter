@@ -1,5 +1,5 @@
 name: notetaker
-description: A new Flutter project.
+description: Note taking app with order of priority.
 
 
 publish_to: 'none' 
@@ -13,6 +13,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sqflite: any
+  path_provider: any
+  intl: ^0.15.7
 
 
  
